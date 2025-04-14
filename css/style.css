@@ -43,4 +43,19 @@ body {
   height: 3px;
   background-color: #fff;
   border-radius: 2px;
+}
+.navbar .navbar-menu {
+  margin-top: 55px;
+  text-align: right;
+}
+.navbar .navbar-menu a {
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+.navbar .navbar-menu a:hover {
+  color: #f6c200;
 }/*# sourceMappingURL=style.css.map */

@@ -48,4 +48,22 @@ body {
       border-radius: 2px;
     }
   }
+
+  .navbar-menu {
+    margin-top: 55px;
+    text-align: right;
+
+    a {
+      margin-left: 25px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 10px;
+      text-transform: uppercase;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #f6c200;
+      }
+    }
+  }
 }
