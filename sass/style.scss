@@ -296,7 +296,7 @@ body {
   .navbar {
     .navbar-inner {
       display: flex;
-      align-items: center; 
+      align-items: center;
       justify-content: space-between;
     }
 
@@ -307,13 +307,13 @@ body {
     }
 
     .navbar-logo {
-      margin: 35px 0px; 
+      margin: 35px 0px;
     }
   }
 
   .navbar-menu {
     position: absolute;
-    top: 0; 
+    top: 0;
     right: 0;
     width: 200px;
     background: #000;
@@ -501,4 +501,16 @@ body {
   p {
     font-size: 13px;
   }
+}
+
+.footer-icons {
+  position: static;
+  justify-content: center;
+  transform: none;
+  margin-top: 50px;
+}
+
+.footer-icons a {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
