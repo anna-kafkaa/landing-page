@@ -461,8 +461,14 @@ body {
     display: flex;
   }
 
+  .navbar-menu {
+    margin-top: 40px;
 
-  
+    a {
+      font-size: 12px;
+    }
+  }
+
 }
 
 
