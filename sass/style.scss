@@ -206,10 +206,21 @@ body {
     }
   }
 
-  img {
-    width: 291px;
-    height: 301px;
-    object-fit: cover;
-    display: block;
-  }
+    img {
+      width: 291px;
+      height: 301px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .portfolio-caption {
+      width: 291px;
+      height: 93px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 15px;
+    }
 }
