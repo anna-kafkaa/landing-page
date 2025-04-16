@@ -336,3 +336,8 @@ body {
     }
   }
 }
+
+.nav-toggle:checked + .burger + .navbar-menu {
+  display: flex;
+}
+
