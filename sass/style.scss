@@ -468,8 +468,18 @@ body {
       font-size: 12px;
     }
   }
-
 }
 
+.hero {
+  padding: 80px 30px;
+  height: auto;
 
+  .hero-subtitle {
+    font-size: 28px;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+}
 
