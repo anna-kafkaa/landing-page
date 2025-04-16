@@ -183,4 +183,12 @@ body {
     font-size: 17px;
     margin-bottom: 73px;
   }
+
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px 34px; 
+    margin-bottom: 60px;
+  }
 }
