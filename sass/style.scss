@@ -296,7 +296,7 @@ body {
   .navbar {
     .navbar-inner {
       display: flex;
-      align-items: center; // logo i burger w jednej linii pionowo
+      align-items: center; 
       justify-content: space-between;
     }
 
@@ -306,8 +306,10 @@ body {
       margin-right: 20px;
     }
 
-    
-
-
+    .navbar-logo {
+      margin: 35px 0px; 
+    }
   }
+
+
 }
