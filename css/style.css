@@ -259,4 +259,197 @@ body {
 }
 .footer a:hover {
   background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .navbar .navbar-logo {
+    margin: 35px 0px;
+  }
+  .navbar-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background: #000;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-menu a {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .navbar-menu a:hover {
+    color: #f6c200;
+  }
+  .nav-toggle:checked + .burger + .navbar-menu {
+    display: flex;
+  }
+}
+.hero {
+  padding: 60px 20px;
+  height: auto;
+}
+.hero .hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.hero .hero-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.hero .btn-primary {
+  padding: 12px 24px;
+  font-size: 13px;
+}
+
+.section-title {
+  font-size: 24px;
+}
+
+.section-subtitle {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.services .service {
+  margin-bottom: 40px;
+}
+.services .service h3 {
+  font-size: 16px;
+}
+.services .service p {
+  font-size: 13px;
+}
+
+.portfolio-grid {
+  align-items: center;
+}
+
+.portfolio-tile {
+  width: 90%;
+  height: auto;
+}
+.portfolio-tile img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-tile .portfolio-caption {
+  width: 100%;
+  height: auto;
+}
+
+.footer-text {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  position: static;
+  justify-content: center;
+  transform: none;
+  margin-top: 50px;
+}
+
+.footer-icons a {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar .navbar-logo {
+    margin-top: 30px;
+  }
+  .navbar .burger {
+    display: flex;
+    margin-left: auto;
+    z-index: 1001;
+  }
+  .navbar .navbar-menu {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 200px;
+    background: #000;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .navbar a {
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    color: #f6c200;
+  }
+  .nav-toggle:checked + .burger + .navbar-menu {
+    display: flex;
+  }
+  .navbar-menu {
+    margin-top: 40px;
+  }
+  .navbar-menu a {
+    font-size: 12px;
+  }
+}
+.hero {
+  padding: 80px 30px;
+  height: auto;
+}
+.hero .hero-subtitle {
+  font-size: 28px;
+}
+.hero .hero-title {
+  font-size: 42px;
+}
+
+.portfolio-grid {
+  gap: 40px 24px;
+}
+
+.portfolio-tile {
+  width: 45%;
+}
+
+.services .service {
+  padding: 10px;
+}
+.services .service h3 {
+  font-size: 17px;
+}
+.services .service p {
+  font-size: 13px;
+}
+
+.footer-icons {
+  position: static;
+  justify-content: center;
+  transform: none;
+  margin-top: 50px;
+}
+
+.footer-icons a {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
